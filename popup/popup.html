@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Generator</title>
+    <link rel="stylesheet" href="bulma.min.css">
+</head>
+<body>
+    <div class="container m-3 is-fluid">
+        <h1 class="title"> Random Quote Generator</h1>
+    </div>
+
+    <div class="container m-3">
+        <label class="label is-fluid">Genre</label>
+        <div class="select">
+            <select id="category">
+                <option value="inspirational">Inspirational</option>
+                <option value="health">Health</option>
+                <option value="great">Great</option>
+                <option value="history">History</option>
+                <option value="learning">Learning</option>
+                <option value="anger">Anger</option>
+                <option value="happiness">Happiness</option>
+                <option value="humor">Humor</option>
+                <option value="money">Money</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="container m-3">
+        <button class="button is-success is-fullwidth" id="GenerateQuote">Generate Quote</button>
+    </div>
+
+    <div class="container m-3">
+        <div id="quoteContainer" class="content"></div>
+    </div>
+    
+    <script src="popup.js"></script>
+</body>
+</html>
